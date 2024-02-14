@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" stylesheets="@../css/New%20Text%20Document.txt" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.LoginController">
+   <children>
+      <Label layoutX="352.0" layoutY="197.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="18.0" prefWidth="132.0" text="Employee ID" />
+      <TextField fx:id="idTextField" layoutX="352.0" layoutY="226.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="290.0" />
+      <PasswordField fx:id="pinTextField" layoutX="352.0" layoutY="290.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="290.0" />
+      <Button fx:id="loginButton" layoutX="352.0" layoutY="336.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onLoginButtonClick" prefHeight="38.0" prefWidth="132.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="exitButton" layoutX="510.0" layoutY="336.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onExitClicked" prefHeight="38.0" prefWidth="132.0" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="352.0" layoutY="257.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="18.0" prefWidth="132.0" text="Employee PIN" />
+      <Label layoutX="352.0" layoutY="274.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="18.0" prefWidth="132.0" text="4 Digit PIN" textFill="#7b7a7a">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Accordion />
+      <Label fx:id="loginStatusLabel" alignment="CENTER" layoutX="348.0" layoutY="419.0" prefHeight="44.0" prefWidth="290.0" textFill="#e40808">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="132.0" layoutY="45.0" prefHeight="94.0" prefWidth="729.0" text="Welcome to the POS System" textFill="#2e0b0b">
+         <font>
+            <Font name="Goudy Old Style" size="56.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

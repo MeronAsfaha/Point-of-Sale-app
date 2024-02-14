@@ -1,0 +1,9 @@
+Coffee,BEVERAGE,1,2.5
+Iced Coffee,BEVERAGE,6,2.55
+Tea,BEVERAGE,5,1.75
+Iced Tea,BEVERAGE,4,1.99
+Latte,BEVERAGE,3,4.3
+Iced Latte,BEVERAGE,2,4.55
+Bagel,FOOD,12,2.0
+Croissant,FOOD,13,2.48
+Cookie,FOOD,14,1.8
